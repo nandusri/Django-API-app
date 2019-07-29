@@ -7,3 +7,4 @@ class SnippetSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Snippet
         fields = ('title', 'body','created')
+        

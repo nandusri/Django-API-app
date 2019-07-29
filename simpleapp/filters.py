@@ -10,3 +10,4 @@ class SnippetFilter(filters.FilterSet):
             'body': ['icontains'],
             'created': ['iexact', 'lte', 'gte'],
         }
+
